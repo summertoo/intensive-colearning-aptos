@@ -1,5 +1,5 @@
 ---
-timezone: Asia/Tokyo # 日本标准时间 (UTC+9)
+timezone: Asia/Tokyo
 ---
 
 
