@@ -15,7 +15,7 @@ timezone: Asia/Shanghai
 
 <!-- Content_START -->
 
-### 2024.08.31
+### 2024.09.01
 了解Aptos残酷共学的规则，并报名。
 
 
