@@ -5,49 +5,49 @@ timezone: Asia/Shanghai
 > 请在上边的 timezone 添加你的当地时区，这会有助于你的打卡状态的自动化更新，如果没有添加，默认为北京时间 UTC+8 时区
 > 时区请参考以下列表，请移除 # 以后的内容
 
-timezone: Pacific/Honolulu # 夏威夷-阿留申标准时间 (UTC-10)
+timezone: Pacific/Honolulu 
 
-timezone: America/Anchorage # 阿拉斯加标准时间 (UTC-9)
+timezone: America/Anchorage 
 
-timezone: America/Los_Angeles # 太平洋标准时间 (UTC-8)
+timezone: America/Los_Angeles 
 
-timezone: America/Denver # 山地标准时间 (UTC-7)
+timezone: America/Denver 
 
-timezone: America/Chicago # 中部标准时间 (UTC-6)
+timezone: America/Chicago 
 
-timezone: America/New_York # 东部标准时间 (UTC-5)
+timezone: America/New_York 
 
-timezone: America/Halifax # 大西洋标准时间 (UTC-4)
+timezone: America/Halifax 
 
-timezone: America/St_Johns # 纽芬兰标准时间 (UTC-3:30)
+timezone: America/St_Johns 
 
-timezone: America/Sao_Paulo # 巴西利亚时间 (UTC-3)
+timezone: America/Sao_Paulo 
 
-timezone: Atlantic/Azores # 亚速尔群岛时间 (UTC-1)
+timezone: Atlantic/Azores 
 
-timezone: Europe/London # 格林威治标准时间 (UTC+0)
+timezone: Europe/London 
 
-timezone: Europe/Berlin # 中欧标准时间 (UTC+1)
+timezone: Europe/Berlin 
 
-timezone: Europe/Helsinki # 东欧标准时间 (UTC+2)
+timezone: Europe/Helsinki 
 
-timezone: Europe/Moscow # 莫斯科标准时间 (UTC+3)
+timezone: Europe/Moscow 
 
-timezone: Asia/Dubai # 海湾标准时间 (UTC+4)
+timezone: Asia/Dubai 
 
-timezone: Asia/Kolkata # 印度标准时间 (UTC+5:30)
+timezone: Asia/Kolkata 
 
-timezone: Asia/Dhaka # 孟加拉国标准时间 (UTC+6)
+timezone: Asia/Dhaka 
 
-timezone: Asia/Bangkok # 中南半岛时间 (UTC+7)
+timezone: Asia/Bangkok 
 
-timezone: Asia/Shanghai # 中国标准时间 (UTC+8)
+timezone: Asia/Shanghai 
 
-timezone: Asia/Tokyo # 日本标准时间 (UTC+9)
+timezone: Asia/Tokyo 
 
-timezone: Australia/Sydney # 澳大利亚东部标准时间 (UTC+10)
+timezone: Australia/Sydney#
 
-timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
+timezone: Pacific/Auckland 
 
 ---
 
