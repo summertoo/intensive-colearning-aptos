@@ -2,7 +2,7 @@
 timezone: Asia/Shanghai
 ---
 
-# {bityoume}
+# bityoume
 
 1. 自我介绍
    区块链技术爱好者、持续学习者
