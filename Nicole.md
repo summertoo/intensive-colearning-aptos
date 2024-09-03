@@ -1,5 +1,5 @@
 ---
-timezone: Asia/Shanghai # 中国标准时间 (UTC+8)
+timezone: Asia/Shanghai
 ---
 
 # Nicole
