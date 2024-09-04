@@ -3,9 +3,8 @@ timezone: Asia/Shanghai
 ---
 
 
----
 
-# {Dason}
+# Dason
 
 1. 自我介绍
 ## 大家好,我是Dason,最近对aptos感兴趣,想学习一下move开发
