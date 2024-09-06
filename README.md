@@ -53,28 +53,59 @@
 
 - 9 月 7 号：
     - 主题： Aptos & Move 简介与学习资料推荐
-    - 主讲人： Logan
+    - 主讲人： Logan - Aptos DevRel
 - 9 月 10 号：
     - 主题：安装开发环境、创建/编译/测试/部署工程
-    - 主讲人： Logan
+    - 主讲人： Logan - Aptos DevRel
 - 9 月 17 号
-    - 主题： 构建并部署 代币水龙头
-    - 主讲人： Logan
+    - 主题： 构建并部署 代币 faucet
+    - 主讲人： Logan - Aptos DevRel
 - 9 月 24 号
     - 主题： 构建并部署 NFT LaunchPad
-    - 主讲人： Logan
+    - 主讲人： Logan - Aptos DevRel
 
 > 「Aptos 残酷共学」，以 21 天为一个学习周期，实现自主、开源开放，不断共同构建和完善 Aptos 共学资料及实践案例。
 > 
 
 ## **可供参考的学习内容和路线**
 
-1. **Aptos 公链机制**：了解 Aptos 公链的架构、共识机制，Gas 模型、帐户模型、资源模型、交易类型
-2. Aptos Move （初级）：了解 Aptos Move 的基本语法，Aptos  Stdlib 的使用
-3. Aptos Move （中级）： 了解 Aptos Move Framework 和 其他官方库，并尝试部署简单的 ToDolist 合约、了解 Object 模型
-4. Aptos Move （高级）： 了解 Aptos Move 的代币标准 ，FA （同质化代币） / DA（非同质化代币），并尝试部署自己的 代币水龙头、NFT LaunchPad 
-5. Dapp开发： 合约测试，React / Nextjs 与 Aptos Wallet 的链接、Ts SDK 的使用，读取链上数据、发送链上交易
-6. 新功能：Keyless 无私钥登陆，Randomness 链上随机数， Dispatchable Fungible Assets
+1. Aptos 公链机制：
+    - 了解 Aptos 公链的架构、共识机制，Gas 模型、帐户模型、资源模型、交易与状态模型
+    <details> 
+        
+    - [共识机制](https://aptos.dev/en/network/blockchain/validator-nodes#consensus) 
+    - [账户模型](https://aptos.dev/en/network/blockchain/accounts)
+    - [Gas 模型](https://aptos.dev/en/network/blockchain/gas-txn-fee)
+    - [资源模型](https://aptos.dev/en/network/blockchain/resources)
+    - [交易与状态模型](https://aptos.dev/en/network/blockchain/txns-states)
+   </details>
+3. Aptos Move （初级）：
+    - 了解 Aptos Move 的基本语法，Aptos  Stdlib 的使用
+    <details> 
+        
+    - [Aptos Move Book](https://aptos.dev/en/build/smart-contracts/book)
+    - [Aptos Stdlib 合约源码](https://github.com/aptos-labs/aptos-core/tree/main/aptos-move/framework/aptos-stdlib/sources)
+   </details>
+5. Aptos Move （中级）：
+    - 了解 Aptos Move Framework 和 其他官方库，并尝试部署简单的 ToDolist 合约、了解 Object 模型
+    <details> 
+        
+    - [Aptos Move Framework 合约源码](https://github.com/aptos-labs/aptos-core/tree/main/aptos-move/framework/aptos-framework/sources)
+    - [Aptos Token 合约源码](https://github.com/aptos-labs/aptos-core/tree/main/aptos-move/framework/aptos-token-objects/sources)
+    - [ToDolist 合约示例](https://learn.aptoslabs.com/zh/code-example/todo-list)
+    - [Object 模型](https://aptos.dev/en/build/smart-contracts/objects)
+   </details>
+7. Aptos Move （高级）：
+    - 了解 Aptos Move 的代币标准 ，FA （同质化代币） / DA（非同质化代币），并尝试部署自己的 代币水龙头、NFT LaunchPad 
+    <details> 
+        
+    - [NFT LaunchPad 合约 / 前端 示例](https://learn.aptoslabs.com/zh/code-example/fa-launchpad)
+        - [Live Demo](https://fungible-asset-launchpad.vercel.app/)
+    - [Fungible Asset（ 同质化代币 -  FT / ERC 20 ）文档](https://aptos.dev/en/build/smart-contracts/fungible-asset)
+    - [Digital Asset（ 非同质化代币 -  NFT / ERC 721 ）文档](https://aptos.dev/en/build/smart-contracts/digital-asset)
+   </details>
+8. Dapp开发： 合约测试，React / Nextjs 与 Aptos Wallet 的链接、Ts SDK 的使用，读取链上数据、发送链上交易
+9. 新功能：Keyless 无私钥登陆，Randomness 链上随机数， Dispatchable Fungible Assets
 
 ## **残酷共学特别激励**
 
@@ -95,10 +126,11 @@
 
 >**奖金发放可以叠加**
 >
->   未完成共学  = **无**
->   未完成共学  +  完成项目  = **无**
-> **完成共学** + **完成项目（未获奖）**=  **可平分 1 奖励 + 平分 2 奖励**
-> **完成共学** + **完成项目（获奖 第一名）**=  **可平分 1 奖励 + 平分 2 奖励 + 项目第一名奖金**
+>未完成共学  = **无**  
+>未完成共学  +  完成项目  = **无**  
+>**完成共学** + **完成项目（未获奖）**=  **可平分 1 奖励 + 平分 2 奖励**  
+>**完成共学** + **完成项目（获奖 第一名）**=  **可平分 1 奖励 + 平分 2 奖励 + 项目第一名奖金**  
+
 **共学时间**
 
 - 报名截止时间：2024-09-06 23:00:00（UTC+8）
@@ -117,8 +149,8 @@
     - Step02：复制 Template.md 创建你的个人笔记文件，并根据文档指引填写你的信息，并将文件重命名为你的名字：YourName.md。
     - Step03：创建一个 PR 到当前仓库，本残酷共学助教会对你的 PR 进行 review，review 通过后，你的 PR 会被 merge 到 main 分支，这个时候你会收到邀请加入这个仓库 contribution 的邮件，接受邀请后，你会自动获得 main 分支的 push 权限。
     - Step04：完成以上三个步骤，恭喜你报名成功，后续就可以将你的学习记录直接 push 到 main 分支进行更新。
-    - 请加入LXDAO TG 群组保持交流：[http://t.me/LXDAO](http://t.me/LXDAO%E3%80%82%E5%8A%A0%E5%85%A5%E7%BE%A4%E7%BB%84%E5%90%8E%E8%AF%B7%E5%9C%A8%E7%BE%A4%E9%87%8C%E6%8A%A5%E5%88%B0%E4%B8%80%E4%B8%8B%E6%96%B9%E4%BE%BF%E5%8A%A9%E6%95%99%E8%AE%B0%E5%BD%95%E3%80%82)  加入群组后请在群里报到一下方便助教记录
-    - 或者添加 Aptos DevRel 微信进入 Aptos 微信群
+    - 请加入LXDAO TG 群组保持交流：[http://t.me/LXDAO](https://t.me/LXDAO/12418)  加入群组后请在群里报到一下方便助教记录
+    - 或者添加 Aptos DevRel 微信进入 Aptos 官方微信群:  logan_apt
 - 打卡：
     - 报名成功后，你将拥有 main 分支的 push 权限，你需要将每天学习笔记按日期更新到你的 YourName.md 文档中，提交更新后，我们会自动更新你的打卡状态到下面的打卡记录表。
     - 如果你不在 UTC+8 时区，需要添加时区 code 到你的 YourName.md 文件的开始，错误的时区设置可能会使自动化打卡脚本错误计算打卡时间，具体请参考：https://github.com/IntensiveCoLearning/template/blob/main/Template.md?plain=1#L1
@@ -140,25 +172,90 @@
 ✅ = Done ⭕️ = Missed ❌ = Failed
 
 <!-- START_COMMIT_TABLE -->
-
-| Name(GitHub ID) | 6.24 | 6.25 | 6.26 | 6.27 | 6.28 | 6.29 | 6.30 | 7.01 | 7.02 | 7.03 | 7.04 | 7.05 | 7.06 | 7.07 | 7.08 | 7.09 | 7.10 | 7.11 | 7.12 | 7.13 | 7.14 |
-| --------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|                 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|                 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|                 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|                 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|                 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|                 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|                 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|                 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|                 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|                 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|                 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|                 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|                 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|                 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-
+| Name | 9.07 | 9.08 | 9.09 | 9.10 | 9.11 | 9.12 | 9.13 | 9.14 | 9.15 | 9.16 | 9.17 | 9.18 | 9.19 | 9.20 | 9.21 | 9.22 | 9.23 | 9.24 | 9.25 | 9.26 | 9.27 |
+| ------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| Ellen | | | | | | | | | | | | | | | | | | | | | |
+| simons | | | | | | | | | | | | | | | | | | | | | |
+| yue | | | | | | | | | | | | | | | | | | | | | |
+| qiaopengjun | | | | | | | | | | | | | | | | | | | | | |
+| Punkcan | | | | | | | | | | | | | | | | | | | | | |
+| Oscar | | | | | | | | | | | | | | | | | | | | | |
+| MartinYeung5 | | | | | | | | | | | | | | | | | | | | | |
+| hahn | | | | | | | | | | | | | | | | | | | | | |
+| Gauss | | | | | | | | | | | | | | | | | | | | | |
+| newraina | | | | | | | | | | | | | | | | | | | | | |
+| bofu | | | | | | | | | | | | | | | | | | | | | |
+| kaka | | | | | | | | | | | | | | | | | | | | | |
+| Bob | | | | | | | | | | | | | | | | | | | | | |
+| Ric-Li-C | | | | | | | | | | | | | | | | | | | | | |
+| laios | | | | | | | | | | | | | | | | | | | | | |
+| gills | | | | | | | | | | | | | | | | | | | | | |
+| Heinlich | | | | | | | | | | | | | | | | | | | | | |
+| yoyo | | | | | | | | | | | | | | | | | | | | | |
+| ajie | | | | | | | | | | | | | | | | | | | | | |
+| Nicole | | | | | | | | | | | | | | | | | | | | | |
+| bityoume | | | | | | | | | | | | | | | | | | | | | |
+| Jack | | | | | | | | | | | | | | | | | | | | | |
+| Steven | | | | | | | | | | | | | | | | | | | | | |
+| bugmaker | | | | | | | | | | | | | | | | | | | | | |
+| zouyuxuan | | | | | | | | | | | | | | | | | | | | | |
+| Qi | | | | | | | | | | | | | | | | | | | | | |
+| Dason | | | | | | | | | | | | | | | | | | | | | |
+| vegetabledogdog | | | | | | | | | | | | | | | | | | | | | |
+| 7uppp | | | | | | | | | | | | | | | | | | | | | |
+| yan | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- STATISTICALDATA_START -->
 <!-- STATISTICALDATA_END -->
