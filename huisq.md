@@ -1,5 +1,5 @@
 ---
-timezone: Beijing/Shanghai
+timezone: Asia/Shanghai
 ---
 
 ---
