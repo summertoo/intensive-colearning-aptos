@@ -3,7 +3,7 @@ timezone: Asia/Shanghai
 ---
 
 
-# {SummerXJ}
+# SummerXJ
 
 1. 自我介绍
 大家好，我是一名Web3初学者，请Ellen老师和其他老师多多指教。
