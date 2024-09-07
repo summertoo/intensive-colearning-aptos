@@ -13,10 +13,7 @@ timezone: Asia/Shanghai
 
 <!-- Content_START -->
 
-### 2024.07.11
-
-笔记内容
-
-### 2024.07.12
+### 2024.09.07
+参加线上Aptos共学群首次会议
 
 <!-- Content_END -->
