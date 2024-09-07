@@ -19,6 +19,7 @@ timezone: Asia/Shanghai
 
 新的学习，新的开始
 
-
+### 2024.09.07
+ 参加线上腾讯会议： Aptos & Move 简介与学习资料推荐
 
 <!-- Content_END -->
