@@ -16,8 +16,11 @@ timezone: Asia/Shanghai
 ### 2024.09.07
 学习Account相关内容：
 1.Ed25519
+
 2.Secp256k1 ECDSA
+
 3.K-of-N multi-signatures
+
 aptos的私钥可以更改，但是对应的地址不变。
 
 参加线上Aptos共学群首次会议
